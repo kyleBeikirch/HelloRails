@@ -1,0 +1,16 @@
+%h1= t '.title'
+%p
+  = link_to t('back'), articles_path
+  = link_to t('edit'), edit_article_path(@article)
+
+%dl
+  %dt= Article.human_attribute_name :title
+  %dd= @article.title
+  %dt= Article.human_attribute_name :location
+  %dd= @article.location
+  %dt= Article.human_attribute_name :excerpt
+  %dd= @article.excerpt
+  %dt= Article.human_attribute_name :body
+  %dd= @article.body
+  %dt= Article.human_attribute_name :published_at
+  %dd= @article.published_at
