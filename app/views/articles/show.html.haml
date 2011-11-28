@@ -1,3 +1,11 @@
+= render @article
+
+%h3 Comments
+#comments
+  =render @article.comments
+  
+=render :file => 'comments/new'
+
 .notice= notice
 %h1= t '.title'
 %p

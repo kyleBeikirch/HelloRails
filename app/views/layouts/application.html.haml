@@ -9,5 +9,8 @@
     = csrf_meta_tag
     = javascript_include_tag :application
   %body.bp
+    = content_tag :p, notice, :class => 'notice' if notice.present?
+    = content_tag :p, alert, :class => 'alert' if alert.present?
+    
     #container
       = yield

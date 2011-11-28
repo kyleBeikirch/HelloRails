@@ -1,0 +1,7 @@
+= div_for comment do
+  %h3
+    = comment.name
+    \<#{comment.email}> said:
+    %span.actions
+      = link_to 'Delete', article_comment_path(:article_id => @article, :id => comment), :confirm => 'Are you sure?', :method => :delete
+  = comment.body
