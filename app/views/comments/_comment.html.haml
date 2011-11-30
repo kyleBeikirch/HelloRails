@@ -2,6 +2,7 @@
   %h3
     = comment.name
     \<#{comment.email}> said:
-    %span.actions
-      = link_to 'Delete', article_comment_path(:article_id => @article, :id => comment), :confirm => 'Are you sure?', :method => :delete
+    - if @article.owned_by? current_user
+      %span.actions
+        = link_to 'Delete', article_comment_path(:article_id => @article, :id => comment), :confirm => 'Are you sure?', :method => :delete
   = comment.body
