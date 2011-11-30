@@ -1,0 +1,255 @@
+/* line 1, ../../app/assets/stylesheets/articles.css.sass */
+* {
+  margin: 0 auto;
+}
+
+/* line 4, ../../app/assets/stylesheets/articles.css.sass */
+body {
+  background-color: white;
+  color: #333333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 11, ../../app/assets/stylesheets/articles.css.sass */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, ../../app/assets/stylesheets/articles.css.sass */
+pre {
+  background-color: #eeeeee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, ../../app/assets/stylesheets/articles.css.sass */
+p {
+  padding: 5px;
+}
+
+/* line 24, ../../app/assets/stylesheets/articles.css.sass */
+a {
+  color: #d95e16;
+  padding: 0 2px;
+  text-decoration: none;
+}
+/* line 28, ../../app/assets/stylesheets/articles.css.sass */
+a:hover {
+  background-color: #ff813c;
+  color: white;
+}
+
+/* line 32, ../../app/assets/stylesheets/articles.css.sass */
+.notice {
+  color: green;
+}
+
+/* line 35, ../../app/assets/stylesheets/articles.css.sass */
+.alert {
+  color: red;
+}
+
+/* line 38, ../../app/assets/stylesheets/articles.css.sass */
+#header, #main, #footer {
+  width: 800px;
+}
+
+/* line 41, ../../app/assets/stylesheets/articles.css.sass */
+#header {
+  font-family: "Myriad Web Pro", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #333333;
+  color: #333333;
+  padding: 15px 0;
+  height: 35px;
+}
+/* line 48, ../../app/assets/stylesheets/articles.css.sass */
+#header #user_bar {
+  float: right;
+  font-size: 10px;
+}
+
+/* line 52, ../../app/assets/stylesheets/articles.css.sass */
+#footer {
+  border-top: 5px solid #c1c1c1;
+  margin-top: 10px;
+  clear: both;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 11px;
+}
+
+/* line 61, ../../app/assets/stylesheets/articles.css.sass */
+#header h1 {
+  padding-top: 14px;
+  float: left;
+  font-size: 30px;
+}
+/* line 65, ../../app/assets/stylesheets/articles.css.sass */
+#header h1 a {
+  color: black;
+}
+/* line 67, ../../app/assets/stylesheets/articles.css.sass */
+#header h1 a:hover {
+  background-color: white;
+  color: black;
+  border-bottom: 4px solid #cccccc;
+}
+/* line 71, ../../app/assets/stylesheets/articles.css.sass */
+#header p {
+  float: right;
+}
+
+/* line 75, ../../app/assets/stylesheets/articles.css.sass */
+#main h1 {
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid #bbbbbb;
+  margin-bottom: 10px;
+}
+/* line 80, ../../app/assets/stylesheets/articles.css.sass */
+#main table {
+  margin: 0;
+}
+/* line 82, ../../app/assets/stylesheets/articles.css.sass */
+#main form {
+  text-align: left;
+}
+/* line 84, ../../app/assets/stylesheets/articles.css.sass */
+#main form br {
+  display: none;
+  float: left;
+}
+/* line 87, ../../app/assets/stylesheets/articles.css.sass */
+#main form label {
+  width: 150px;
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+  float: left;
+  line-height: 21px;
+  vertical-align: center;
+  background-color: #f0f0f0;
+  border: 2px solid #cccccc;
+  margin-right: 10px;
+}
+/* line 98, ../../app/assets/stylesheets/articles.css.sass */
+#main form label.check_box_label {
+  width: auto;
+  display: inline;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 21px;
+  vertical-align: center;
+  background-color: white;
+  border: none;
+}
+/* line 107, ../../app/assets/stylesheets/articles.css.sass */
+#main form .field, #main form .actions {
+  padding-top: 10px;
+  clear: both;
+}
+/* line 111, ../../app/assets/stylesheets/articles.css.sass */
+#main form input[type=text], #main form input[type=password] {
+  float: left;
+  font-size: 14px;
+  width: 250px;
+  padding: 2px;
+  border: 2px solid #cccccc;
+}
+/* line 117, ../../app/assets/stylesheets/articles.css.sass */
+#main form textarea {
+  float: left;
+  font-size: 14px;
+  width: 250px;
+  padding: 2px;
+  border: 2px solid #cccccc;
+}
+/* line 123, ../../app/assets/stylesheets/articles.css.sass */
+#main form input[type=checkbox] {
+  margin: 4px;
+  float: left;
+}
+/* line 126, ../../app/assets/stylesheets/articles.css.sass */
+#main form textarea {
+  height: 150px;
+}
+/* line 128, ../../app/assets/stylesheets/articles.css.sass */
+#main form input[type=submit] {
+  margin-left: 175px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 133, ../../app/assets/stylesheets/articles.css.sass */
+#main h3 {
+  padding-top: 10px;
+  height: 20px;
+}
+/* line 136, ../../app/assets/stylesheets/articles.css.sass */
+#main h3 .actions {
+  display: none;
+  font-weight: normal;
+  font-size: 10px;
+}
+/* line 140, ../../app/assets/stylesheets/articles.css.sass */
+#main h3:hover .actions {
+  display: inline;
+}
+
+/* line 143, ../../app/assets/stylesheets/articles.css.sass */
+.fieldWithErrors {
+  display: table;
+  float: left;
+  margin: 0;
+  width: 100px;
+  margin-right: 10px;
+}
+
+/* line 151, ../../app/assets/stylesheets/articles.css.sass */
+#main form .fieldWithErrors label {
+  border: 2px solid red;
+  margin-right: 0px;
+}
+/* line 154, ../../app/assets/stylesheets/articles.css.sass */
+#main form .fieldWithErrors input, #main form .fieldWithErrors textarea {
+  width: 250px;
+  border: 2px solid red;
+}
+
+/* line 158, ../../app/assets/stylesheets/articles.css.sass */
+#errorExplanation {
+  width: 413px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+/* line 166, ../../app/assets/stylesheets/articles.css.sass */
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #cc0000;
+  color: white;
+}
+/* line 174, ../../app/assets/stylesheets/articles.css.sass */
+#errorExplanation p {
+  color: #333333;
+  margin-bottom: 0;
+  padding: 5px;
+  margin: 0;
+}
+/* line 179, ../../app/assets/stylesheets/articles.css.sass */
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
